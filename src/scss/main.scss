@@ -1,3 +1,54 @@
-.js-scss {
-  color: green;
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+$background-grey: #eeeeee;
+$background-lime: #a6df20;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 100%;
+  min-height: 100vh;
+  background: $background-grey;
+  font-family: "Montserrat", Arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  background: $background-lime;
+  h1 {
+    padding: 25px;
+    font-size: 2.5rem;
+  }
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  max-width: 1440px;
+  margin: 100px auto;
+  div {
+    flex: 1;
+    img {
+      width: 100%;
+    }
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    h3 {
+      font-size: 2rem;
+      margin-bottom: 32px;
+    }
+    h4 {
+      font-size: 1.5rem;
+    }
+  }
 }
