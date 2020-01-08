@@ -29,11 +29,10 @@ npm run dev
 3. To check for code errors/lints use:
 ```
 npm run test:eslint -s
+// It is not necessary since ESLint is integrated with Parcel bundler.
 ```
-It is not necessary since ESLint is integrated with Parcel bundler.
-
 4. To build production files run:
 ```
 npm run build
+// Files will be saved in /dist folder.
 ```
-FIles will be saved in /dist folder
