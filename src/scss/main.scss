@@ -2,6 +2,7 @@
 
 $background-grey: #eeeeee;
 $background-lime: #a6df20;
+$font-color: #333333;
 
 * {
   margin: 0;
@@ -14,6 +15,7 @@ body {
   min-height: 100vh;
   background: $background-grey;
   font-family: "Montserrat", Arial, sans-serif;
+  color: $font-color;
 }
 
 header {
