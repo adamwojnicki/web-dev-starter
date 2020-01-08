@@ -2,6 +2,8 @@
 
 This is a simple Web Developer Starter pack with basic configuration. It uses Parcel JS bundler for local server development and bundling to production code.
 
+It was created to serve as a boilerplate for future projets, to automate development process and save time with initial configuration. 
+
 Features:
 * ESLint and Prettier integration.
 * Live local server with hot reload.
@@ -29,6 +31,7 @@ npm run dev
 npm run test:eslint -s
 ```
 It is not necessary since ESLint is integrated with Parcel bundler.
+
 4. To build production files run:
 ```
 npm run build
